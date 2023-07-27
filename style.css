@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(210, 210, 56);
+}
+.container {
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  margin-top: 5%;
+  border: 2px solid black;
+  position: relative;
+}
+.container-number {
+  position: absolute;
+  top: 50px;
+  font-size: 100px;
+  pointer-events: none;
+}
+.container-button {
+  margin-top: 50px;
+}
+.btn {
+  border: 2px solid black;
+  margin: 0 5px;
+}
